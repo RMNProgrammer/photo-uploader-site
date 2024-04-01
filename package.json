@@ -1,0 +1,21 @@
+{
+  "name": "photo-uploader-site",
+  "version": "1.0.0",
+  "description": "In this repo a photo uploader site has been deploy with NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/RMNProgrammer/photo-uploader-site"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "website",
+    "photo-uploader"
+  ],
+  "author": "Mohammad Amin Ramezani",
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <%- include('layout/head'); -%>
+    </head>
+    <body>
+        <div class="file-container">
+            <div class="file-wrapper">
+                <div class="file-content">
+                    <h1>Photo Uploader</h1>
+                    <div class="file-infos">
+                        <i class="fas fa-folder-open fa-3x"></i>
+                        <span class="icon-shadow"></span>
+                        <form action="/" method="POST" class="upload-form" enctype="multipart/form-data">
+                            <input type="file" name="upload-image" required/>
+                            <button>Send</button>
+                        </form>
+                    </div>
+                    <%- include('layout/footer'); -%>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

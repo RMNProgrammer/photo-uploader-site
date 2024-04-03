@@ -1,1 +1,4 @@
+public/uploads/
+variables.env
 node_modules/
+tmp/

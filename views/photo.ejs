@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <%- include('layout/head'); -%>
+    </head>
+    <body>
+        <div class="file-container">
+            <div class="file-wrapper">
+                <div class="file-content">
+                    <h1>Photo Uploader</h1>
+                    <div>
+                        <img src=<%= path %> alt='uploaded-image' class='uploaded-image' />
+                        <span class="manage">
+                            <code class="code"><%= path %></code>
+                            <a href="/delete/<%= id %>">
+                                <img src="/assets/img/delete-icon.png" alt="delete-icon" class="icon" />
+                            </a>
+                        </span>
+                    </div>
+                    <%- include('layout/footer'); -%>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
